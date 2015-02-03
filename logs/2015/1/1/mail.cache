@@ -1,0 +1,13 @@
+CACHE type 4 produced by analog 4.1/Unix. Do not modify or delete!
+T	0	0	2	2	0	0	9443
+D	23669501	23670107
+16437	44	1	1	2388
+16437	165	1	1	7055
+1	2	2	0	0	23670107	0	0	9443	/info@taka-engineering.com/
+3	1	1	0	0	23669501	0	0	2388	http://srs8749.cuenote.jp/
+3	1	1	0	0	23670107	0	0	7055	http://mirai-j.co.jp/
+4	2	2	0	0	23670107	0	0	9443	http://www.taka-engineering.com/
+5	1	1	0	0	23669501	0	0	2388	bounce-2015010103-00036721a86e@srs8749.cuenote.jp
+5	1	1	0	0	23670107	0	0	7055	mm-info2@mirai-j.co.jp
+z	4	2	2	23670107	9443
+c	200	2	23670107

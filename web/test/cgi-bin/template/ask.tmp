@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title><TMPL_VAR NAME="meta_title"></title>
+<meta name="Keywords" content="<TMPL_VAR NAME="meta_keywords">">
+ <meta name="Description" content="<TMPL_VAR NAME="meta_description">">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+<TMPL_VAR NAME="header_addition">
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_main_ssl td_queryBackGround_<TMPL_VAR NAME="ask_page_id">">
+				<div class="div_mainKiji">
+		<br>
+ 		<br>
+ 		<TMPL_IF NAME="error_flg">
+ 			<div class="div_errorWordLeft">
+ 				<TMPL_LOOP NAME="MUST_ERROR_LOOP">
+ 					・「<TMPL_VAR NAME="must_error_ask_name">」が<TMPL_IF NAME="error_input_flg">入力<TMPL_ELSE>選択</TMPL_IF>されていません。<BR>
+ 				</TMPL_LOOP>
+ 				<TMPL_IF NAME="email_error_name">
+ 					・「<TMPL_VAR NAME="email_error_name">」が不正です。<BR>
+ 				</TMPL_IF>
+ 				<TMPL_IF NAME="address_error_flg">
+ 					・「<TMPL_VAR NAME="address_error_name">」が不正です。<BR>
+ 				</TMPL_IF>
+ 				<TMPL_IF NAME="date_error_flg">
+ 					・「<TMPL_VAR NAME="date_error_name">」が不正です。<BR>
+ 				</TMPL_IF>
+ 				<TMPL_IF NAME="area_error_name">
+ 					・「<TMPL_VAR NAME="area_error_name">」は全角<TMPL_VAR NAME="area_error_count">文字以内で入力して下さい。<BR>
+ 				</TMPL_IF>
+ 				<TMPL_IF NAME="zen_num_error_name">
+ 					・「<TMPL_VAR NAME="zen_num_error_name">」は全角数字のみで入力してください。<BR>
+ 				</TMPL_IF>
+ 				<br>
+ 			</div>
+ 		</TMPL_IF>
+ 		<form class="form_query" action="ask_check.cgi" method="POST">
+ 			<input type="hidden" name="pid" value="<TMPL_VAR NAME="ask_page_id">">
+ 			<table class="table_query style_fixAskCenterIE8">
+ 				<TMPL_LOOP NAME="FORM_LOOP">
+ 					<tr>
+ 						<td class="td_queryItemLeft">
+ 							<TMPL_IF NAME="form_input_icon">
+ 								<img src="<TMPL_VAR NAME="form_input_icon">" alt="">
+ 							</TMPL_IF>
+ 							<TMPL_VAR NAME="form_input_title">
+ 							<TMPL_IF NAME="form_necessity_flg">
+ 								<font class="font_colorHissu">*</font>
+ 							</TMPL_IF>
+ 						</td>
+ 						<td class="td_queryLeft">
+ 							<TMPL_IF NAME="form_text_flg">
+ 								<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">" class="text_queryWidth" size="<TMPL_VAR NAME="form_maxlength">" value="<TMPL_VAR NAME="form_value">">
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_area_flg">
+ 								<textarea name="ask_input_value_<TMPL_VAR NAME="form_id">" rows="<TMPL_VAR NAME="form_rows">" cols="<TMPL_VAR NAME="form_maxlength">" class="text_queryWidth"><TMPL_VAR NAME="form_value"></textarea>
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_radio_flg">
+ 								<TMPL_LOOP NAME="FORM_SUB_LOOP">
+ 									<input type="radio" name="ask_input_value_<TMPL_VAR NAME="form_id">" value="<TMPL_VAR NAME="form_sub_id">"<TMPL_VAR NAME="form_value">><TMPL_VAR NAME="form_sub_title"><br>
+ 								</TMPL_LOOP>
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_check_flg">
+ 								<TMPL_LOOP NAME="FORM_SUB_LOOP">
+ 									<input type="checkbox" name="ask_input_value_<TMPL_VAR NAME="form_id">_<TMPL_VAR NAME="form_sub_id">" value="1"<TMPL_VAR NAME="form_value">><TMPL_VAR NAME="form_sub_title"><br>
+ 								</TMPL_LOOP>
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_select_flg">
+ 								<select name="ask_input_value_<TMPL_VAR NAME="form_id">">
+ 									<TMPL_LOOP NAME="FORM_SUB_LOOP">
+ 										<option value="<TMPL_VAR NAME="form_sub_id">"<TMPL_VAR NAME="form_value">><TMPL_VAR NAME="form_sub_title"></option>
+ 									</TMPL_LOOP>
+ 								</select>
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_mail_flg">
+ 								<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">" size="60" class="text_queryWidth" value="<TMPL_VAR NAME="form_value">">
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="form_zen_numeric_flg">
+ 								<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">" class="text_queryWidth" size="<TMPL_VAR NAME="form_maxlength">" maxlength="<TMPL_VAR NAME="form_maxlength">" value="<TMPL_VAR NAME="form_value">"> <BR>
+ 								（全角数字のみで入力してください）
+ 							</TMPL_IF>
+ 						<TMPL_IF NAME="form_address_flg">
+ 								<table>
+ 									<tr>
+ 										<td>
+ 											<nobr>郵便番号</nobr>
+ 										</td>
+ 										<td>
+ 											<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_1" value="<TMPL_VAR NAME="form_value_1">" size="3" maxlength="3" class="text_font">
+ 											 - <input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_2" value="<TMPL_VAR NAME="form_value_2">" size="4" maxlength="4" class="text_font">
+ 											(半角数字で入力してください)<br>
+ 										</td>
+ 									</tr>
+ 									<tr>
+ 										<td>
+ 											<nobr>都道府県</nobr>
+ 										</td>
+ 										<td>
+ 											<select name="ask_input_value_<TMPL_VAR NAME="form_id">_3">
+ 												<option value="">選択してください</option>
+ 												<option value="1"<TMPL_IF NAME="area1_flg"> selected</TMPL_IF>>北海道</option>
+ 												<option value="2"<TMPL_IF NAME="area2_flg"> selected</TMPL_IF>>青森県</option>
+ 												<option value="3"<TMPL_IF NAME="area3_flg"> selected</TMPL_IF>>岩手県</option>
+ 												<option value="4"<TMPL_IF NAME="area4_flg"> selected</TMPL_IF>>宮城県</option>
+ 												<option value="5"<TMPL_IF NAME="area5_flg"> selected</TMPL_IF>>秋田県</option>
+ 												<option value="6"<TMPL_IF NAME="area6_flg"> selected</TMPL_IF>>山形県</option>
+ 												<option value="7"<TMPL_IF NAME="area7_flg"> selected</TMPL_IF>>福島県</option>
+ 												<option value="8"<TMPL_IF NAME="area8_flg"> selected</TMPL_IF>>茨城県</option>
+ 												<option value="9"<TMPL_IF NAME="area9_flg"> selected</TMPL_IF>>栃木県</option>
+ 												<option value="10"<TMPL_IF NAME="area10_flg"> selected</TMPL_IF>>群馬県</option>
+ 												<option value="11"<TMPL_IF NAME="area11_flg"> selected</TMPL_IF>>埼玉県</option>
+ 												<option value="12"<TMPL_IF NAME="area12_flg"> selected</TMPL_IF>>千葉県</option>
+ 												<option value="13"<TMPL_IF NAME="area13_flg"> selected</TMPL_IF>>東京都</option>
+ 												<option value="14"<TMPL_IF NAME="area14_flg"> selected</TMPL_IF>>神奈川県</option>
+ 												<option value="15"<TMPL_IF NAME="area15_flg"> selected</TMPL_IF>>山梨県</option>
+ 												<option value="16"<TMPL_IF NAME="area16_flg"> selected</TMPL_IF>>静岡県</option>
+ 												<option value="17"<TMPL_IF NAME="area17_flg"> selected</TMPL_IF>>長野県</option>
+ 												<option value="18"<TMPL_IF NAME="area18_flg"> selected</TMPL_IF>>新潟県</option>
+ 												<option value="19"<TMPL_IF NAME="area19_flg"> selected</TMPL_IF>>富山県</option>
+ 												<option value="20"<TMPL_IF NAME="area20_flg"> selected</TMPL_IF>>石川県</option>
+ 												<option value="21"<TMPL_IF NAME="area21_flg"> selected</TMPL_IF>>福井県</option>
+ 												<option value="22"<TMPL_IF NAME="area22_flg"> selected</TMPL_IF>>岐阜県</option>
+ 												<option value="23"<TMPL_IF NAME="area23_flg"> selected</TMPL_IF>>愛知県</option>
+ 												<option value="24"<TMPL_IF NAME="area24_flg"> selected</TMPL_IF>>三重県</option>
+ 												<option value="25"<TMPL_IF NAME="area25_flg"> selected</TMPL_IF>>滋賀県</option>
+ 												<option value="26"<TMPL_IF NAME="area26_flg"> selected</TMPL_IF>>京都府</option>
+ 												<option value="27"<TMPL_IF NAME="area27_flg"> selected</TMPL_IF>>大阪府</option>
+ 												<option value="28"<TMPL_IF NAME="area28_flg"> selected</TMPL_IF>>兵庫県</option>
+ 												<option value="29"<TMPL_IF NAME="area29_flg"> selected</TMPL_IF>>奈良県</option>
+ 												<option value="30"<TMPL_IF NAME="area30_flg"> selected</TMPL_IF>>和歌山県</option>
+ 												<option value="31"<TMPL_IF NAME="area31_flg"> selected</TMPL_IF>>鳥取県</option>
+ 												<option value="32"<TMPL_IF NAME="area32_flg"> selected</TMPL_IF>>島根県</option>
+ 												<option value="33"<TMPL_IF NAME="area33_flg"> selected</TMPL_IF>>岡山県</option>
+ 												<option value="34"<TMPL_IF NAME="area34_flg"> selected</TMPL_IF>>広島県</option>
+ 												<option value="35"<TMPL_IF NAME="area35_flg"> selected</TMPL_IF>>山口県</option>
+ 												<option value="36"<TMPL_IF NAME="area36_flg"> selected</TMPL_IF>>徳島県</option>
+ 												<option value="37"<TMPL_IF NAME="area37_flg"> selected</TMPL_IF>>香川県</option>
+ 												<option value="38"<TMPL_IF NAME="area38_flg"> selected</TMPL_IF>>愛媛県</option>
+ 												<option value="39"<TMPL_IF NAME="area39_flg"> selected</TMPL_IF>>高知県</option>
+ 												<option value="40"<TMPL_IF NAME="area40_flg"> selected</TMPL_IF>>福岡県</option>
+ 												<option value="41"<TMPL_IF NAME="area41_flg"> selected</TMPL_IF>>佐賀県</option>
+ 												<option value="42"<TMPL_IF NAME="area42_flg"> selected</TMPL_IF>>長崎県</option>
+ 												<option value="43"<TMPL_IF NAME="area43_flg"> selected</TMPL_IF>>熊本県</option>
+ 												<option value="44"<TMPL_IF NAME="area44_flg"> selected</TMPL_IF>>大分県</option>
+ 												<option value="45"<TMPL_IF NAME="area45_flg"> selected</TMPL_IF>>宮崎県</option>
+ 												<option value="46"<TMPL_IF NAME="area46_flg"> selected</TMPL_IF>>鹿児島県</option>
+ 												<option value="47"<TMPL_IF NAME="area47_flg"> selected</TMPL_IF>>沖縄県</option>
+ 											</select>
+ 											<br>
+ 										</td>
+ 									</tr>
+ 									<tr>
+ 										<td>
+ 										</td>
+ 										<td>
+ 											<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_4" value="<TMPL_VAR NAME="form_value_4">" size="45" class="text_font"><br>
+ 											※市区町村以下を入力してください。<br>
+ 											&nbsp;&nbsp;(例)新宿区新宿1-1-1<br>
+ 										</td>
+ 									</tr>
+ 								</table>
+ 						</TMPL_IF>
+ 						<TMPL_IF NAME="form_date_flg">
+ 							西暦 <input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_1" value="<TMPL_VAR NAME="form_value_1">" size="4" maxlength="4" class="text_font">年
+ 							<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_2" value="<TMPL_VAR NAME="form_value_2">" size="2" maxlength="2" class="text_font">月
+ 							<input type="text" name="ask_input_value_<TMPL_VAR NAME="form_id">_3" value="<TMPL_VAR NAME="form_value_3">" size="2" maxlength="2" class="text_font">日
+ 						</TMPL_IF>
+ 						</td>
+ 					</tr>
+ 				</TMPL_LOOP>
+ 				<input type="hidden" name="seid" value="<TMPL_VAR NAME="seid">">
+ 				<tr>
+ 					<td colspan="2"class="td_queryRight">
+ 						<TMPL_IF NAME="ask_necessity_check">
+ 							<font class="font_colorHissu">*</font>は必須項目です<br>
+ 						</TMPL_IF>
+ 						<TMPL_IF NAME="ask_button">
+ 							<input type="submit" value="<TMPL_VAR NAME="ask_button">"<TMPL_VAR NAME="ask_button_flg">>
+ 						</TMPL_IF>
+ 							<input type="button" value="ＨＯＭＥへ戻る" onClick="location.href='<TMPL_VAR NAME="top_url">'">
+ 					</td>
+ 				</tr>
+ 			</table>
+ 		</form>
+
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

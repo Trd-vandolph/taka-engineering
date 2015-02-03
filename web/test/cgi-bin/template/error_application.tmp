@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title></title>
+<!--tag_header_succession=""-->
+ <!--tag_meta_succession=""-->
+ <meta name="Keywords" content=""> 
+ <meta name="Description" content="">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_syouhinBackGround">
+				<div class="div_mainKiji">
+				<div class="div_errorCenter">
+ 					<div class="div_errorWordWidth">
+ 						<div class="div_errorWordLeft">
+ 							アプリケーションエラー<br>
+ 							管理者にお問い合わせください。<br>
+ 							<br>
+ 							<input type="button" value="ＨＯＭＥへ戻る" onClick="location.href='<TMPL_VAR NAME="top_url">'">
+ 						</div>
+ 					</div>
+ 				</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!--tag_module_start="12"-->
+<div class="div_userNinsyouModule">
+	<div class="div_moduleWidth">
+		<div class="div_moduleCenter">
+			<div class="div_moduleLeft">
+				<div id="ms">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	<!--
+	addLoadEvent(onLoadLogin);
+	// -->
+	</script>
+</div>
+<!--tag_module_end-->

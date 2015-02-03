@@ -1,0 +1,20 @@
+<!--tag_module_start="10"-->
+<div class="div_slideShowModule">
+	<script type="text/javascript">
+	<!--
+	addLoadEvent(init_slideShow);
+	// -->
+	</script>
+	<div class="div_moduleWidth">
+		<div class="div_moduleCenter">
+			<div class="div_Slideshow_left slideshow">
+				<div class="jdSlideshow slideshow" id="slideshow"><strong>Now Loading...</strong></div>
+			</div>
+		</div>
+		<div class="div_slideShowTitle">
+			<!--tag_slideShow_title-->
+			
+		</div>
+	</div>
+</div>
+<!--tag_module_end-->

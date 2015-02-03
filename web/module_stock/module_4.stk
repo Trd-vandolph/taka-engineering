@@ -1,0 +1,19 @@
+<!--tag_module_start="4"-->
+<!--tag_pickup_type="3"-->
+<div class="div_pickUpSyouhinModule">
+	<div class="div_moduleWidth">
+		<div class="div_moduleTextCenter">
+			<!--tag_pickup_item_code-->
+			<a href="./cgi-bin/saleItem_detailInfo.cgi?cc=1&gc=1&ic=00000001" onClick="return doChk();">サンプル商品1</a><br>
+			<div class="div_pickUpAndNewCenter">
+				<div class="div_pickUpAndNewText">
+					ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+				</div>
+				<a href="./cgi-bin/saleItem_detailInfo.cgi?cc=1&gc=1&ic=00000001" class="a_img_border" onClick="return doChk();"><img src="./img/zzzsmp_300a.jpg" class="img_middle a_imgLine" alt=""></a>
+			</div>
+			<a href="./cgi-bin/saleItem_detailInfo.cgi?cc=1&gc=1&ic=00000001" onClick="return doChk();">詳細を見る</a>
+		</div>
+	</div>
+</div>
+
+<!--tag_module_end-->

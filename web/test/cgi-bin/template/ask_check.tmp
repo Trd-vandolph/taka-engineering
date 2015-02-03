@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title><TMPL_VAR NAME="meta_title"></title>
+<meta name="Keywords" content="<TMPL_VAR NAME="meta_keywords">">
+ <meta name="Description" content="<TMPL_VAR NAME="meta_description">">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+<TMPL_VAR NAME="header_addition">
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_main_ssl td_queryBackGround_<TMPL_VAR NAME="ask_page_id">">
+				<div class="div_mainKiji">
+		<br>
+ 		<br>
+ 			<TMPL_IF NAME="error_on_flg">
+ 				<div class="div_errorWordLeft">
+ 					<TMPL_LOOP NAME="MUST_ERROR_LOOP">
+ 						・「<TMPL_VAR NAME="must_error_ask_name">」が<TMPL_IF NAME="error_input_flg">入力<TMPL_ELSE>選択</TMPL_IF>されていません。<BR>
+ 					</TMPL_LOOP>
+ 					<TMPL_IF NAME="email_error_name">
+ 						・「<TMPL_VAR NAME="email_error_name">」が不正です。<BR>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="area_error_name">
+ 						・「<TMPL_VAR NAME="area_error_name">」は全角<TMPL_VAR NAME="area_error_count">文字以内で入力して下さい。<BR>
+ 					</TMPL_IF>
+ 					<br>
+ 				</div>
+ 			</TMPL_IF>
+ 			<form class="form_query" action="ask_finish.cgi" method="POST" name="form_ask_check">
+ 				<input type="hidden" name="pid" value="<TMPL_VAR NAME="ask_page_id">">
+ 				<table class="table_queryKakunin style_fixAskCenterIE8">
+ 					<TMPL_LOOP NAME="LOOP">
+ 						<TMPL_IF NAME="ask_view_flg">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">" value="<TMPL_VAR NAME="ask_input_value">">
+ 						<tr>
+ 							<td class="td_queryItemLeft">
+ 								<TMPL_IF NAME="ask_input_icon">
+ 									<img src="<TMPL_VAR NAME="ask_input_icon">" alt="">
+ 								</TMPL_IF>
+ 								<TMPL_VAR NAME="ask_input_title">
+ 								<TMPL_IF NAME="ask_input_necessity">
+ 									<font class="font_colorHissu">*</font>
+ 								</TMPL_IF>
+ 							</td>
+ 							<td class="td_queryLeft">
+ 								<TMPL_VAR NAME="ask_input_view">
+ 							</td>
+ 						</tr>
+ 						</TMPL_IF>
+ 						<TMPL_IF NAME="address_flg">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_1" value="<TMPL_VAR NAME="input_value_1">">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_2" value="<TMPL_VAR NAME="input_value_2">">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_3" value="<TMPL_VAR NAME="input_value_area">">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_4" value="<TMPL_VAR NAME="input_value_4">">
+ 						<tr>
+ 							<td class="td_queryItemLeft">
+ 								<TMPL_IF NAME="ask_input_icon">
+ 									<img src="<TMPL_VAR NAME="ask_input_icon">" alt="">
+ 								</TMPL_IF>
+ 								<TMPL_VAR NAME="ask_input_title">
+ 								<TMPL_IF NAME="ask_input_necessity">
+ 									<font class="font_colorHissu">*</font>
+ 								</TMPL_IF>
+ 							</td>
+ 							<td class="td_queryLeft">
+ 								<TMPL_IF NAME="view_value_flg">
+ 								〒 <TMPL_VAR NAME="view_value_1"> - <TMPL_VAR NAME="view_value_2"><BR>
+ 								</TMPL_IF>
+ 								<TMPL_VAR NAME="view_value_area"><TMPL_VAR NAME="view_value_4">
+ 							</td>
+ 						</tr>
+ 						</TMPL_IF>
+ 						<TMPL_IF NAME="date_flg">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_1" value="<TMPL_VAR NAME="input_value_1">">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_2" value="<TMPL_VAR NAME="input_value_2">">
+ 						<input type="hidden" name="ask_input_value_<TMPL_VAR NAME="ask_input_nom">_3" value="<TMPL_VAR NAME="input_value_3">">
+ 						<tr>
+ 							<td class="td_queryItemLeft">
+ 								<TMPL_IF NAME="ask_input_icon">
+ 									<img src="<TMPL_VAR NAME="ask_input_icon">" alt="">
+ 								</TMPL_IF>
+ 								<TMPL_VAR NAME="ask_input_title">
+ 								<TMPL_IF NAME="ask_input_necessity">
+ 									<font class="font_colorHissu">*</font>
+ 								</TMPL_IF>
+ 							</td>
+ 							<td class="td_queryLeft">
+ 							<TMPL_IF NAME="date_view_value_flg">
+ 								西暦 <TMPL_VAR NAME="view_value_1">年 <TMPL_VAR NAME="view_value_2">月 <TMPL_VAR NAME="view_value_3">日
+ 							</TMPL_IF>
+ 							</td>
+ 						</tr>
+ 						</TMPL_IF>
+ 					</TMPL_LOOP>
+ 					<tr>
+ 						<td colspan="2" class="td_queryRight">
+ 							<TMPL_IF NAME="ask_necessity_check">
+ 								<font class="font_colorHissu">*</font>は必須項目です<br>
+ 							</TMPL_IF>
+ 							<script type="text/javascript"><!--
+ 								function askSubmit(url) { 
+ 								document.form_ask_check.action = url; 
+ 								document.form_ask_check.submit(); 
+ 								}
+ 							-->
+  							</script>
+  							<input type="hidden" name="seid" value="<TMPL_VAR NAME="seid">">
+ 							<input type="button" value="<TMPL_VAR NAME="ask_button">"        onClick="askSubmit('ask_finish.cgi')" <TMPL_VAR NAME="ask_button_flg">>
+ 							<input type="button" value="<TMPL_VAR NAME="ask_bottom_cancel">" onClick="askSubmit('ask.cgi')">
+ 						</td>
+ 					</tr>
+ 				</table>
+ 			</form>
+
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

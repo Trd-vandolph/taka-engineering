@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<title>プレビュー</title>
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+<script type="text/javascript"><!--
+function imgeLoad()
+{
+	if (!document.createElement || !document.getElementById) return;
+	var val = document.location.search;
+	var src = val.substring(5,val.length);
+	document.getElementById("imgs").src =  src;
+}
+
+-->
+</script>
+
+</head>
+<body>
+	<img id="imgs" alt="">
+	<script type="text/javascript"><!--
+		addLoadEvent(imgeLoad);
+	-->
+	</script>
+</body>
+</html>

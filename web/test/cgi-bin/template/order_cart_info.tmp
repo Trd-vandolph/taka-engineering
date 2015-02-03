@@ -1,0 +1,786 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title></title>
+<!--tag_header_succession=""-->
+ <!--tag_meta_succession=""-->
+ <meta name="Keywords" content=""> 
+ <meta name="Description" content="">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_main_ssl">
+				<div class="div_mainKiji">
+<TMPL_IF NAME="error_flg">
+ 				<div class="div_errorCenter">
+ 					<div class="div_errorWordWidth">
+ 						<div class="div_errorWordLeft">
+ 					<TMPL_IF NAME="timeout_error_flg">
+ 							操作しなかった時間が長かったため、買い物かごの中身が空になりました。<br>
+ 							もう一度商品を買い物かごに入れてください。<br><br>
+ 								<input type="button" value="注文情報の確認" onClick="location.href='order_cart_info.cgi?<TMPL_VAR NAME="bpage_para">'">
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="notselected_error_flg">
+ 							商品が選択されていません。<br>
+ 							前の画面に戻って、<TMPL_VAR NAME="yoko_title">×<TMPL_VAR NAME="tate_title">表から商品を選択してください。<br>
+ 						</div>
+ 					</div>
+ 				<br>
+ 					<table class="table_errorWidth style_fixCenterIE8">
+ 						<tr>
+ 							<td class="td_width50per">
+ 									<input type="button" value="前の画面に戻る" onClick="location.href='<TMPL_VAR NAME="bpage_url">'">
+ 							</td>
+ 							<td class="td_width50per">
+ 								<input type="button" value="注文情報の確認" onClick="location.href='order_cart_info.cgi?<TMPL_VAR NAME="bpage_para">'">
+ 							</td>
+ 						</tr>
+ 					</table><br><br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="stock_error_flg">
+ 						大変申し訳ございません。<br>
+ 						「<TMPL_VAR NAME="hinmei">　
+ 							<TMPL_IF NAME="variation_code">
+ 							<TMPL_VAR NAME="yoko_title">：<TMPL_VAR NAME="yoko_name">；<TMPL_VAR NAME="tate_title">：<TMPL_VAR NAME="tate_name">
+ 							</TMPL_IF>
+ 							」の在庫数は
+ 						残り <TMPL_VAR NAME="stock_quantity"> 個に対してお客様の注文個数は <TMPL_VAR NAME="order_quantity"> 個 です。<br>
+ 						前の画面に戻って数量の変更をお願いいたします。<br>
+ 						</div>
+ 					</div>
+ 				<br>
+ 					<table class="table_errorWidth style_fixCenterIE8">
+ 						<tr>
+ 							<td class="td_width50per">
+ 									<input type="button" value="前の画面に戻る" onClick="location.href='<TMPL_VAR NAME="bpage_url">'">
+ 							</td>
+ 							<td class="td_width50per">
+ 								<input type="button" value="注文情報の確認" onClick="location.href='order_cart_info.cgi?<TMPL_VAR NAME="bpage_para">'">
+ 							</td>
+ 						</tr>
+ 					</table>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="max_error_flg">
+ 						大変申し訳ございません。<br>
+ 						「<TMPL_VAR NAME="hinmei">　
+ 							<TMPL_IF NAME="variation_code">
+ 							<TMPL_VAR NAME="yoko_title">：<TMPL_VAR NAME="yoko_name">；<TMPL_VAR NAME="tate_title">：<TMPL_VAR NAME="tate_name">
+ 							</TMPL_IF>
+ 							」の最大注文数 <TMPL_VAR NAME="max_quantity"> 個に対してお客様の注文個数は <TMPL_VAR NAME="order_quantity"> 個 です。<br>
+ 						前の画面に戻って数量の変更をお願いいたします。<br>
+ 						</div>
+ 					</div>
+ 				<br>
+ 					<table class="table_errorWidth style_fixCenterIE8">
+ 						<tr>
+ 							<td class="td_width50per">
+ 									<input type="button" value="前の画面に戻る" onClick="location.href='<TMPL_VAR NAME="bpage_url">'">
+ 							</td>
+ 							<td class="td_width50per">
+ 								<input type="button" value="注文情報の確認" onClick="location.href='order_cart_info.cgi?<TMPL_VAR NAME="bpage_para">'">
+ 							</td>
+ 						</tr>
+ 					</table>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="incorrect_error_flg">
+ 							注文数は1以上の半角数字を入力してください。<br>
+ 						</div>
+ 					</div>
+ 				<br>
+ 					<table class="table_errorWidth style_fixCenterIE8">
+ 						<tr>
+ 							<td class="td_width50per">
+ 									<input type="button" value="前の画面に戻る" onClick="location.href='<TMPL_VAR NAME="bpage_url">'">
+ 							</td>
+ 							<td class="td_width50per">
+ 								<input type="button" value="注文情報の確認" onClick="location.href='order_cart_info.cgi?<TMPL_VAR NAME="bpage_para">'">
+ 							</td>
+ 						</tr>
+ 					</table>
+ 					</TMPL_IF>
+ 					<br><br>
+ 				</div>
+ <TMPL_ELSE>
+ 			<div class="div_cartKijiareaCenter">
+ 				<div class="div_cartKijiareaWidth">
+ 		<TMPL_IF NAME="error_on_flg">
+ 					<div class="div_errorWordLeft">
+ 					<TMPL_IF NAME="agent_error_flg">
+ 						大変申し訳ございません。<br>
+ 						決済代行可能限度額(税込30万円)を超えています。<br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="empty_error_flg">
+ 						ただいま買い物かごに商品はありません。<br>
+ 						ぜひ、お買い物をお楽しみください。<br>
+ 						ご利用をお待ちしております。<br>
+ 						<br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="stock_error_flg">
+ 						大変申し訳ございません。<br>
+ 						「<TMPL_VAR NAME="hinmei">　
+ 							<TMPL_IF NAME="variation_code">
+ 							<TMPL_VAR NAME="yoko_title">：<TMPL_VAR NAME="yoko_name">；<TMPL_VAR NAME="tate_title">：<TMPL_VAR NAME="tate_name">
+ 							</TMPL_IF>
+ 							」の在庫数は
+ 						残り <TMPL_VAR NAME="stock_quantity"> 個に対してお客様の注文個数は <TMPL_VAR NAME="order_quantity"> 個 です。<br>
+ 						数量の変更をお願いいたします。<br><br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="max_error_flg">
+ 						大変申し訳ございません。<br>
+ 						「<TMPL_VAR NAME="hinmei">　
+ 							<TMPL_IF NAME="variation_code">
+ 							<TMPL_VAR NAME="yoko_title">：<TMPL_VAR NAME="yoko_name">；<TMPL_VAR NAME="tate_title">：<TMPL_VAR NAME="tate_name">
+ 							</TMPL_IF>
+ 							」の最大注文数 <TMPL_VAR NAME="max_quantity"> 個に対してお客様の注文個数は <TMPL_VAR NAME="order_quantity"> 個 です。<br>
+ 						数量の変更をお願いいたします。<br><br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="incorrect_error_flg">
+ 							注文数は1以上の半角数字を入力してください。<br><br>
+ 					</TMPL_IF>
+ 					</div>
+ 		</TMPL_IF>
+ 					<div class="div_cartSyouhinLeft">
+ 						<form name="form_cart_info" action="<TMPL_VAR NAME="order_form_url">" method="POST" onsubmit="this.onsubmit=function(){return false}" >
+ 						<BR>
+ 							<table class="table_cartSyouhin">
+ 								<tr>
+ 									<td class="td_cartSyouhinCenter">
+ 										商品名
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 										単価
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 										注文数
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 										金額
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 										<nobr>配送タイプ</nobr>
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 									
+ 									</td>
+ 								</tr>
+ 	<TMPL_LOOP NAME="PURCHASE_LOOP">
+ 								<tr>
+ 									<td class="td_cartSyouhinLeft">
+ 										<table>
+ 											<tr>
+ 												<td>
+ 													<img src="<TMPL_VAR NAME="main_img_url">" class="img_small" alt="">
+ 												</td>
+ 												<td>
+ 													<TMPL_VAR NAME="hinmei">
+ 									<TMPL_IF NAME="variation_flg">
+ 													（<TMPL_VAR NAME="vari_yoko_name">・<TMPL_VAR NAME="vari_tate_name">）
+ 									</TMPL_IF>
+ 												</td>
+ 											</tr>
+ 										</table>
+ 									</td>
+ 									<td class="td_cartSyouhinRight">
+ 										<nobr><TMPL_VAR NAME="unit_price">円</nobr><br>
+ 									<TMPL_IF NAME="pretax_flg">
+ 										<nobr>(税抜 <TMPL_VAR NAME="pretax_price">円)</nobr>
+ 									</TMPL_IF>
+ 									</td>
+ 									<td class="td_cartSyouhinRight">
+ 										<input type="text" name="order_quantity_<TMPL_VAR NAME="order_quantity_id">" maxlength="4" size="3" value="<TMPL_VAR NAME="order_quantity">" class="textbox_right">
+ 									</td>
+ 									<td class="td_cartSyouhinRight">
+ 										<nobr><TMPL_VAR NAME="amount"></nobr>
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 										<TMPL_VAR NAME="delivery_name">
+ 									</td>
+ 									<td class="td_cartSyouhinCenter">
+ 											<input type="button" value="削除"  onClick="location.href='<TMPL_VAR NAME="cart_url">?action=d&cid=<TMPL_VAR NAME="cid">&<TMPL_VAR NAME="bpage_para">'">
+ 									</td>
+ 								</tr>
+ 	</TMPL_LOOP>
+ 								<tr>
+ 									<td colspan="7"  class="td_cartSyouhinRight">
+ 										<input  onClick="location.href='<TMPL_VAR NAME="cart_url">?action=ad&<TMPL_VAR NAME="bpage_para">'" type="button" value="買い物かごを空にする"<TMPL_IF NAME="empty_error_flg">disabled</TMPL_IF>>
+ 									</td>
+ 								</tr>
+ 							</table>
+ 					<TMPL_IF NAME="discount_flg">
+ 			<TMPL_LOOP NAME="DISCOUNT_LOOP">
+ 							<TMPL_VAR NAME="discount_if">円以上購入の方、<TMPL_VAR NAME="discount_per">％割引<BR>
+ 			</TMPL_LOOP>
+ 					</TMPL_IF>
+ 						<br>
+ 							<div class="div_cartGoukeiCenter">
+ 								<table class="table_cartGoukei">
+ 									<tr>
+ 										<td colspan="2"  class="td_cartSyouhinCenter">
+ 											現在のお支払金額
+ 										</td>
+ 									</tr>
+ 									<tr>
+ 										<td class="td_cartSyouhinCenter">
+ 											小計(税込)
+ 										</td>
+ 											<td class="td_cartSyouhinRight">
+ 											<TMPL_VAR NAME="subtotal_amount">円
+ 										</td>
+ 									</tr>
+ 								<TMPL_IF NAME="discount_flg">
+ 									<tr>
+ 										<td class="td_cartSyouhinCenter">
+ 											割引金額(端数は切り捨てられます)
+ 										</td>
+ 											<td class="td_cartSyouhinRight">
+ 											<TMPL_VAR NAME="cash_discount">円
+ 										</td>
+ 									</tr>
+ 								</TMPL_IF>
+ 									<tr>
+ 										<td class="td_cartSyouhinCenter">
+ 											合計金額(税込)
+ 										</td>
+ 											<td class="td_cartSyouhinRight">
+ 											<TMPL_VAR NAME="total_amount">円
+ 										</td>
+ 									</tr>
+ 								</table>
+ 								<table class="style_fixCenterIE8">
+ 									<tr>
+ 										<td class="td_width50per">
+ 											<input type="button" value="買い物を続ける" onClick="Submit('form_cart_info');this.onsubmit=function(){return false}">
+ 												<SCRIPT language="JavaScript"><!--
+ 													function Submit( formName ) {
+ 														btnPost2(true);
+ 														document.forms[formName].action = "<TMPL_VAR NAME="back_page_url">";
+ 														document.forms[formName].submit();
+ 													}
+ 												--></SCRIPT>
+ 										</td>
+ 										<td class="td_width50per">
+ 											<input type="button" value="注文フォームへ進む" name="submit_bottun"  onClick="CheckCookieEnabled('form_cart_info');" <TMPL_IF NAME="empty_error_flg">disabled</TMPL_IF>>
+ 											<script type="text/javascript"><!--
+ 												function CheckCookieEnabled(formName) {
+ 													if (cookieEnabledFlg == 0) {
+ 														alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+ 													} else {
+ 														btnPost2(true);
+ 														document.forms[formName].submit();
+ 													}
+ 												}
+ 											-->
+ 											</script>
+ 											<input type="hidden" name="seid" value="<TMPL_VAR NAME="seid">">
+ 											<TMPL_IF NAME="bpage_flg">
+ 												<input type="hidden" name="saleItem_id" value="<TMPL_VAR NAME="saleItem_id">">
+ 												<input type="hidden" name="bpage" value="<TMPL_VAR NAME="bpage">">
+ 											<TMPL_ELSE>
+ 												<input type="hidden" name="pid" value="<TMPL_VAR NAME="pid">">
+ 												<input type="hidden" name="stype" value="<TMPL_VAR NAME="stype">">
+ 												<input type="hidden" name="vtype" value="<TMPL_VAR NAME="vtype">">
+ 												<TMPL_IF NAME="bpage_u_flg">
+ 													<input type="hidden" name="ukeyword" value="<TMPL_VAR NAME="ukeyword">">
+ 												</TMPL_IF>
+ 												<TMPL_IF NAME="bpage_s_flg">
+ 													<input type="hidden" name="skeyword" value="<TMPL_VAR NAME="skeyword">">
+ 												</TMPL_IF>
+ 												<TMPL_IF NAME="bpage_g_flg">
+ 													<input type="hidden" name="gkeyword" value="<TMPL_VAR NAME="gkeyword">">
+ 												</TMPL_IF>
+ 												<TMPL_IF NAME="bpage_c_flg">
+ 													<input type="hidden" name="ckeyword" value="<TMPL_VAR NAME="ckeyword">">
+ 												</TMPL_IF>
+ 												<input type="hidden" name="vnum" value="<TMPL_VAR NAME="vnum">">
+ 												<input type="hidden" name="bpage" value="<TMPL_VAR NAME="bpage">">
+ 											</TMPL_IF>
+ 										</td>
+ 									</tr>
+ 								</table>
+ 							</div>
+ 						</form>
+ 				<br>
+ 					<TMPL_IF NAME="CONFIG_business_legis_flg">
+ 						<div class="div_cartSyouhinRight">
+ 							<a href="javascript:void(window.open('../tokuteishoutorihikihou.html','','scrollbars=yes,Width=720,Height=720'));">特定商取引法に基づく表示</a>
+ 						</div>
+ 					</TMPL_IF>
+ 				<TMPL_IF NAME="msg_flg">
+ 					<div class="div_cartSyouhinLeft">
+ 					◆ご連絡事項<br>
+ 						<table class="table_cartRenraku">
+ 							<tr>
+ 								<td class="td_cartRenraku">
+ 									<TMPL_VAR NAME="msg">
+ 								</td>
+ 							</tr>
+ 						</table>
+ 					</div>
+ 				<br>
+ 				</TMPL_IF>
+ 			<TMPL_IF NAME="delivery_flg">
+ 					<div class="div_cartSyouhinLeft">
+ 					◆配送タイプ<BR>
+ 				<TMPL_IF NAME="ship_free_flg">
+ 					<TMPL_VAR NAME="ship_free_if">円以上購入の方、送料無料
+ 				</TMPL_IF>
+ 	<TMPL_LOOP NAME="DELIVERY_LOOP">
+ 						<table class="table_haisouType">
+ 							<TMPL_IF NAME="delivery_type_flg">
+ 								<tr>
+ 									<td colspan="6"  class="td_haisouTypeLeft">
+ 										<TMPL_VAR NAME="delivery_name">&nbsp;&nbsp;<TMPL_VAR NAME="delivery_uniform">円
+ 									</td>
+ 								</tr>
+ 							<TMPL_ELSE>
+ 								<tr>
+ 									<td colspan="6"  class="td_haisouTypeLeft">
+ 										<TMPL_VAR NAME="delivery_name">
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										北海道
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_1">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										青森県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_2">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										岩手県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_3">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										宮城県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_4">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										秋田県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_5">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										山形県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_6">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										福島県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_7">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										茨城県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_8">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										栃木県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_9">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										群馬県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_10">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										埼玉県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_11">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										千葉県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_12">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										東京都
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_13">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										神奈川県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_14">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										山梨県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_15">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										静岡県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_16">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										長野県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_17">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										新潟県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_18">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										富山県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_19">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										石川県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_20">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										福井県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_21">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										岐阜県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_22">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										愛知県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_23">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										三重県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_24">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										滋賀県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_25">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										京都府
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_26">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										大阪府
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_27">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										兵庫県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_28">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										奈良県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_29">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										和歌山県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_30">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										鳥取県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_31">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										島根県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_32">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										岡山県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_33">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										広島県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_34">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										山口県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_35">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										香川県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_36">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										徳島県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_37">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										愛媛県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_38">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										高知県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_39">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										福岡県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_40">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										佐賀県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_41">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										長崎県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_42">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										熊本県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_43">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										大分県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_44">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										宮崎県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_45">円
+ 									</td>
+ 								</tr>
+ 								<tr>
+ 									<td class="td_haisouTypeLeftColor">
+ 										鹿児島県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_46">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										沖縄県
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										<TMPL_VAR NAME="delivery_area_47">円
+ 									</td>
+ 									<td class="td_haisouTypeLeftColor">
+ 										
+ 									</td>
+ 									<td class="td_haisouTypeCharges">
+ 										
+ 									</td>
+ 								</tr>
+ 							</TMPL_IF>
+ 							<TMPL_IF NAME="delivery_comment_flg">
+ 								<tr>
+ 									<td colspan="6"  class="td_haisouTypeLeft">
+ 										<TMPL_VAR NAME="delivery_comment">
+ 									</td>
+ 								</tr>
+ 							</TMPL_IF>
+ 						</table>
+ 						<br>
+ 		</TMPL_LOOP>
+ 					</div>
+ 				</TMPL_IF>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="div_tax">
+ 				<TMPL_VAR NAME="tax_string">
+ 			</div>
+ </TMPL_IF>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

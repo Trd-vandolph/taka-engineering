@@ -1,0 +1,19 @@
+<!--tag_module_start="7"-->
+<div class="div_profileModule">
+	<div class="div_moduleWidth">
+		<div class="div_moduleCenter">
+			<!--tag_profile_url-->
+			<a href="./company_information_15_1.html" class="a_img_border">
+			<!--tag_profile_image-->
+			<img src="./img/zzzsmp_company_image.png" class="a_imgLine" alt=""></a><br>
+			<!--tag_profile_linkname-->
+			<a href="./company_information_15_1.html">ñ‚Ç¢çáÇÌÇπ</a><br>
+			<div class="div_profileModuleLeft">
+				<!--tag_profile_comment_start-->
+				
+				<!--tag_profile_comment_end-->
+			</div>
+		</div>
+	</div>
+</div>
+<!--tag_module_end-->

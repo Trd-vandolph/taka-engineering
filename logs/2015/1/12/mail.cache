@@ -1,0 +1,14 @@
+CACHE type 4 produced by analog 4.1/Unix. Do not modify or delete!
+T	0	0	2	2	0	0	29982
+D	23685866	23685926
+16448	149	1	1	28975
+16448	161	1	1	1007
+1	2	2	0	0	23685926	0	0	29982	/info@taka-engineering.com/
+3	1	1	0	0	23685926	0	0	1007	http://gmail.com/
+3	1	1	0	0	23685866	0	0	28975	http://chu-5.jp/
+4	2	2	0	0	23685926	0	0	29982	http://www.taka-engineering.com/
+5	1	1	0	0	23685866	0	0	28975	info@chu-5.jp
+5	1	1	0	0	23685926	0	0	1007	advertise.bz222saax@gmail.com
+z	3	1	1	23685926	1007
+z	5	1	1	23685866	28975
+c	200	2	23685926

@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title></title>
+<!--tag_header_succession=""-->
+ <!--tag_meta_succession=""-->
+ <meta name="Keywords" content=""> 
+ <meta name="Description" content="">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_main_ssl td_syouhinQueryBackGround_<TMPL_VAR NAME="pid">">
+				<div class="div_mainKiji">
+<TMPL_IF NAME="error_flg">
+ 				<div class="div_errorCenter">
+ 					<div class="div_errorWordWidth">
+ 						<div class="div_errorWordLeft">
+ 							申し訳ございません。<BR>
+ 							この商品は掲載期間外です。<br>
+ 						</div>
+ 					</div>
+ 				<br>
+ 					<input type="button" value="ＨＯＭＥへ戻る" onClick="location.href='<TMPL_VAR NAME="top_url">'"><br><br>
+ 				</div>
+ <TMPL_ELSE>
+ 				<div class="div_querySyouhinPadding">
+ 			<TMPL_IF NAME="askItem_return_msg">
+ 					<div class="div_errorCenter">
+ 						<table class="table_syouhinQueryError">
+ 							<tr>
+ 								<td>
+ 								<TMPL_IF NAME="mail_must_error_on_flg">
+ 								・「電子メールアドレス」が入力されていません。<BR>
+ 								</TMPL_IF>
+ 								<TMPL_IF NAME="ms_must_error_flg">
+ 								・「本文」が入力されていません。<BR>
+ 								</TMPL_IF>
+ 								<TMPL_IF NAME="incorrect_error_flg">
+ 								・「電子メールアドレス」が不正です。<BR>
+ 								</TMPL_IF>
+ 								</td>
+ 							</tr>
+ 						</table>
+ 						<BR>
+ 					</div>
+ 			</TMPL_IF>
+ 					<script type="text/javascript"><!--
+ 					main_img=new Array();
+ 					main_img[ 0 ]=new Array("<TMPL_VAR NAME="main_image_url">");
+ 					main_img[ 1 ]=new Array("<TMPL_VAR NAME="sub1_image_url">");
+ 					main_img[ 2 ]=new Array("<TMPL_VAR NAME="sub2_image_url">");
+ 
+ 					img_percent=new Array();
+ 					img_percent[ 0 ] = new Array("<TMPL_VAR NAME="main_percent">");
+ 					img_percent[ 1 ] = new Array("<TMPL_VAR NAME="sub1_percent">");
+ 					img_percent[ 2 ] = new Array("<TMPL_VAR NAME="sub2_percent">");
+ 
+ 					img_px=new Array();
+ 					img_px[ 0 ] = new Array("<TMPL_VAR NAME="main_px">");
+ 					img_px[ 1 ] = new Array("<TMPL_VAR NAME="sub1_px">");
+ 					img_px[ 2 ] = new Array("<TMPL_VAR NAME="sub2_px">");
+ 
+ 					img_unitFlg=new Array();
+ 					img_unitFlg[ 0 ] = new Array("<TMPL_VAR NAME="main_flg">");
+ 					img_unitFlg[ 1 ] = new Array("<TMPL_VAR NAME="sub1_flg">");
+ 					img_unitFlg[ 2 ] = new Array("<TMPL_VAR NAME="sub2_flg">");
+ 
+ 					addLoadEvent(init);
+ 					-->
+ 					</script>
+ 					<div class="div_detailLeft">
+ 						<table>
+ 							<tr>
+ 								<td class="td_syousaiTop">
+ 									<table>
+ 										<tr>
+ 											<td colspan="3" class="td_syousaiCenter">
+ 												<div class="div_syousaiImg"><div onClick="imgPopUp()" id='imgs'></div></div>
+ 											</td>
+ 										</tr>
+ 										<tr>
+ 											<td class="td_syousaiCenterTop">
+ 												<div id="main" onClick="changeImage(0)" ></div>
+ 											</td>
+ 											<td class="td_syousaiCenterTop">
+ 												<div id="sub1" onClick="changeImage(1)"></div>
+ 											</td>
+ 											<td class="td_syousaiCenterTop">
+ 												<div id="sub2" onClick="changeImage(2)"></div>
+ 											</td>
+ 										</tr>
+ 									</table>
+ 								</td>
+ 							</tr>
+ 							<tr>
+ 								<td>
+ 									<TMPL_VAR NAME="hinmei">
+ 								<TMPL_IF NAME="order_new_icon_flg">
+ 									 <img src="<TMPL_VAR NAME="order_new_icon">" alt="">
+ 								</TMPL_IF>
+ 								<TMPL_IF NAME="recom_icon_flg">
+ 									<img src="<TMPL_VAR NAME="recom_icon">" alt="">
+ 								</TMPL_IF>
+ 									<br>
+ 									<TMPL_VAR NAME="item_description">
+ 								</td>
+ 							</tr>
+ 								<td class="td_syousaiTop">
+ 									<table class="table_syouhin_spec">
+ 										<tr>
+ 											<td class="td_syouhinInfo_detail_name">
+ 												<nobr>価格</nobr>
+ 											</td>
+ 											<td class="td_syouhinInfo_detail">
+ 											<TMPL_IF NAME="sp_price_icon_flg">
+ 												<nobr><TMPL_VAR NAME="sp_price">円</nobr>
+ 											<TMPL_IF NAME="pretax_sp_flg">
+ 												<nobr>(税抜 <TMPL_VAR NAME="pretax_sp_price">円)</nobr>
+ 											</TMPL_IF>
+ 												<img src="<TMPL_VAR NAME="sp_price_icon">" alt="">
+ 											<TMPL_ELSE>
+ 												<nobr><TMPL_VAR NAME="retail_price">円</nobr>
+ 											<TMPL_IF NAME="pretax_flg">
+ 												<nobr>(税抜 <TMPL_VAR NAME="pretax_price">円)</nobr>
+ 											</TMPL_IF>
+ 											</TMPL_IF>
+ 											</td>
+ 										</tr>
+ 									<TMPL_IF NAME="simple_description_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_detail_name">
+ 												<nobr>簡易説明</nobr>
+ 											</td>
+ 											<td class="td_syouhinInfo_detail">
+ 												<TMPL_VAR NAME="simple_description">
+ 											</td>
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="term_posted_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_detail_name">
+ 												<nobr>掲載期間</nobr>
+ 											</td>
+ 											<td class="td_syouhinInfo_detail">
+ 												<TMPL_VAR NAME="term_posted_start">～<TMPL_VAR NAME="term_posted_fin">
+ 											</td>
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="stock_total_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_detail_name">
+ 												在庫
+ 											</td>
+ 											<td class="td_syouhinInfo_detail">
+ 												<TMPL_IF NAME="stock_total_unstocked">
+ 													あり
+ 												<TMPL_ELSE>
+ 													なし
+ 												</TMPL_IF>
+ 											</td>
+ 										</tr>
+ 									</TMPL_IF>
+ 										<tr>
+ 											<td class="td_syouhinInfo_detail_name">
+ 												<nobr>配送タイプ</nobr>
+ 											</td>
+ 											<td class="td_syouhinInfo_detail">
+ 												<TMPL_VAR NAME="delivery_type">
+ 											</td>
+ 										</tr>
+ 									</table>
+ 									<div class="div_tax">
+ 										<TMPL_VAR NAME="tax_string">
+ 									</div>
+ 								</td>
+ 							</tr>
+ 						<TMPL_IF NAME="variation_code">
+ 							<tr>
+ 								<td>
+ 									<table>
+ 										<tr>
+ 											<td>
+ 												<TMPL_VAR NAME="yoko_title">×<TMPL_VAR NAME="tate_title"><br>
+ 												<table class="table_variation">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															&nbsp;
+ 														</td>
+ 													<TMPL_IF NAME="yoko1">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko1">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko2">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko2">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko3">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko3">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko4">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko4">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko5">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko5">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko6">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko6">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko7">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko7">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko8">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko8">
+ 														</td>
+ 													</TMPL_IF>
+ 														<TMPL_IF NAME="yoko9">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko9">
+ 														</td>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="yoko10">
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="yoko10">
+ 														</td>
+ 													</TMPL_IF>
+ 													</tr>
+ 													<TMPL_IF NAME="tate1">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate1">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation01">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked01_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate2">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate2">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation02">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked02_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate3">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate3">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation03">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked03_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate4">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate4">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation04">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked04_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate5">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate5">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation05">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked05_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate6">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate6">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation06">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked06_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate7">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate7">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation07">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked07_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate8">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate8">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation08">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked08_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate9">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate9">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation09">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked09_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 													<TMPL_IF NAME="tate10">
+ 													<tr>
+ 														<td class="td_variationBgColor">
+ 															<TMPL_VAR NAME="tate10">
+ 														</td>
+ 														<TMPL_LOOP NAME="variation10">
+ 														<td class="td_variation">
+ 															<TMPL_IF NAME="unstocked10_flg">
+ 															×
+ 															<TMPL_ELSE>
+ 															○
+ 															</TMPL_IF>
+ 														</td>
+ 														</TMPL_LOOP>
+ 													</tr>
+ 													</TMPL_IF>
+ 												</table>
+ 												×がついている商品は完売です。
+ 											</td>
+ 										</tr>
+ 									</table>
+ 								</td>
+ 							</tr>
+ 						</TMPL_IF>
+ 						<form class="form_syouhinDetail" name="form_syouhinDetail" action="askItem_check.cgi" method="POST">
+ 							<tr>
+ 								<td colspan="2">
+ 									電子メールアドレス<font class="font_colorHissu">*</font><br>
+ 									<input type="text" name="askItem_input_mail" size="60" value="<TMPL_VAR NAME="askItem_input_mail">" class="text_font"><br>
+ 									本文<font class="font_colorHissu">*</font><br>
+ 									<textarea name="askItem_input_message" rows="5" class="textarea_syouhinQueryWidth"><TMPL_VAR NAME="askItem_input_message"></textarea><br>
+ 									<div class="div_syouhinQueryRight">
+ 										<font class="font_colorHissu">*</font>は必須項目です<br>
+ 									</div>
+ 									<table>
+ 										<tr>
+ 											<td class="td_width50per">
+ 												<input type="button" value="商品問い合わせ詳細に戻る" onClick="btnPost(true, '<TMPL_VAR NAME="askItem_detail_url">')">
+ 											</td>
+ 											<td class="td_width50per">
+ 												<input type="submit" value="<TMPL_VAR NAME="askItem_button">" onClick="btnPost2(true);submit()">
+ 												<input type="hidden" name="saleItem_id" value="<TMPL_VAR NAME="saleItem_id">">
+ 												<input type="hidden" name="pid" value="<TMPL_VAR NAME="pid">">
+ 												<input type="hidden" name="seid" value="<TMPL_VAR NAME="seid">">
+ 											</td>
+ 										</tr>
+ 									</table>
+ 								</td>
+ 							</tr>
+ 						</form>
+ 							<tr>
+ 								<td colspan="2">
+ 									<table class="table_anyItem">
+ 									<TMPL_IF NAME="anyItem_info_1_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_1_name">
+ 											</td>	
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_1">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_2_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_2_name">
+ 											</td>	
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_2">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_3_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_3_name">
+ 											</td>	
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_3">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_4_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_4_name">
+ 											</td>	
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_4">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_5_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_5_name">
+ 											</td>	
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_5">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_6_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_6_name">
+ 											</td>
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_6">
+ 											</td>
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_7_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_7_name">
+ 											</td>
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_7">
+ 											</td>
+ 										</tr>
+ 									</TMPL_IF>
+ 									<TMPL_IF NAME="anyItem_info_8_flg">
+ 										<tr>
+ 											<td class="td_syouhinInfo_anyItem_name">
+ 												<TMPL_VAR NAME="anyItem_info_8_name">
+ 											</td>
+ 											<td class="td_syouhinInfo_anyItem">	
+ 												<TMPL_VAR NAME="anyItem_info_8">
+ 											</td>	
+ 										</tr>
+ 									</TMPL_IF>
+ 									</table>
+ 								</td>	
+ 							</tr>
+ 						</table>
+ 					</div >
+ 				</div>
+ </TMPL_IF>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

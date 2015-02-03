@@ -1,0 +1,19 @@
+CACHE type 4 produced by analog 4.1/Unix. Do not modify or delete!
+T	0	0	5	5	0	0	66426
+D	23678623	23679070
+16443	140	1	1	51785
+16443	157	1	1	10289
+16443	225	1	1	1268
+16443	230	2	2	3084
+1	5	5	0	0	23679070	0	0	66426	/info@taka-engineering.com/
+3	3	3	0	0	23679070	0	0	4352	http://nifty.com/
+3	1	1	0	0	23678623	0	0	51785	http://jtg.co.jp/
+3	1	1	0	0	23678709	0	0	10289	http://mirai-j.co.jp/
+4	5	5	0	0	23679070	0	0	66426	http://www.taka-engineering.com/
+5	1	1	0	0	23678709	0	0	10289	mm-info2@mirai-j.co.jp
+5	1	1	0	0	23679046	0	0	1268	appp5bb@nifty.com
+5	1	1	0	0	23678623	0	0	51785	info@jtg.co.jp
+5	2	2	0	0	23679070	0	0	3084	3c6bbbg@nifty.com
+z	4	3	3	23679070	4352
+z	5	2	2	23678709	62074
+c	200	5	23679070

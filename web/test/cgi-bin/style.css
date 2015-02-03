@@ -1,0 +1,1141 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: ＭＳ Ｐゴシック;
+	font-size: small;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image: url(../img/top1.jpg);
+	background-repeat: repeat-x;
+}
+
+A:link {
+	color: #005C00;
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+
+A:visited {
+	color: #038503;
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+
+A:active {
+	color: #FF7800;
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+
+a {
+	background-color: ;
+}
+
+.div_layoutAlign{
+	text-align: center;
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+
+.table_layout{
+	width: 960px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+.span_linkColor{
+	color: #005C00;
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+
+.a_imgLine{
+	border: 0px;
+}
+
+a.a_img_border:link {
+	border-bottom: 0px;
+}
+
+a.a_img_border:visited {
+	border-bottom: 0px;
+}
+
+a.a_img_border:active {
+	border-bottom: 0px;
+}
+
+.td_header{
+	text-align: left;
+	height: 11px;
+	background-image: url(../);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.td_yokoMenu{
+	background-color: ;
+}
+
+.td_yokoMenuItem{
+
+	padding:  0px 10px 0px 0px;
+}
+
+.img_mainImage{
+	border: 0px;
+}
+
+.td_mainImage{
+	padding: 0px;
+}
+
+.td_tateMenu1{
+	text-align: left;
+	width: 200px;
+	background-color: #F1F4F7;
+	vertical-align: top;
+	padding: 0px 0px 0px 0px;
+}
+
+.img_tateMenu1{
+	width: 200px;
+	height: 1px;
+}
+
+.div_moduleMargin1{
+	margin: 0px 0px 10px 0px;
+}
+
+.td_mainKiji {
+	width: 760px;
+	text-align: left;
+	background-color: #FFFFFF;
+	background-image: url(../);
+	background-repeat: repeat-y;
+	padding: 0px 0px 0px 0px;
+	vertical-align: top;
+}
+
+.td_main_ssl {
+	width: 960px;
+}
+
+.div_mainKiji{
+	padding: 0px 0px 0px 0px;
+}
+
+.div_partsSpace{
+	margin-bottom: 10px;
+}
+
+.td_tateMenu2{
+	text-align: left;
+	width: 180px;
+	background-color: #F1F4F7;
+	vertical-align: top;
+	padding: 0px 0px 0px 0px;
+}
+
+.img_tateMenu2{
+	width: 180px;
+	height: 1px;
+}
+
+.div_moduleMargin2{
+	margin: 0px 0px 10px 0px;
+}
+
+.td_footer{
+	font-family: ;
+	font-size: ;
+	text-align: center;
+	color: ;
+	background-color: ;
+	width: 100%;
+}
+
+.form_module{
+	margin: 0px 0px 0px 0px;
+}
+
+.div_moduleTextCenter{
+	text-align: center;
+}
+
+.div_moduleLeft{
+	text-align: left;
+}
+
+.img_noBorder{
+	border: 0px;
+}
+
+.div_moduleStepLink{
+	display: none;
+	padding: 0px 0px 0px 10px;
+}
+
+.div_syouhinItiranModule{
+	font-family: ;
+	font-size: ;
+	color: #000000;
+	background-color: ;
+}
+
+.div_categoryLinkModule{
+	font-family: ;
+	font-size: ;
+	color: #000000;
+	background-color: ;
+}
+
+.img_floatLeft{
+	float: left;
+}
+
+.img_floatRight{
+	float: right;
+}
+
+.div_pickUpAndNewText{
+	text-align: left;
+}
+
+.div_pickUpAndNewCenter{
+	text-align: center;
+}
+
+.div_newInfoText{
+	text-align: left;
+}
+
+.div_newInfoCenter{
+	text-align: center;
+}
+
+.div_pageLinkModule{
+	font-family: ;
+	font-size: ;
+	color: #000000;
+	background-color: ;
+}
+
+.div_syouhinKensakuModuleCenter{
+	text-align: center;
+}
+
+.div_profileModule{
+	font-family: ;
+	font-size: ;
+	color: #000000;
+	background-color: ;
+}
+
+.div_profileModuleLeft{
+	text-align: left;
+}
+
+.div_userNinsyouModuleCenter{
+	text-align: center;
+}
+
+.div_userNinsyouModule{
+	font-family: ;
+	font-size: ;
+	color: #000000;
+	background-color: ;
+	background-image: url(../);
+}
+
+.img_small{
+	width: 65px;
+	border: 0px;
+}
+
+.img_middle{
+	width: 130px;
+	border: 0px;
+}
+
+.img_large{
+	width: 300px;
+	border: 0px;
+}
+
+.form_mainKijiKensaku{
+	float: left;
+}
+
+.form_mainKijiCartInfo{
+	float: right;
+	text-align : right;
+}
+
+.form_mainKijiItemBtnCenter{
+	float: center;
+	margin: 0px 0px 0px 0px;
+}
+
+.form_mainKijiItemBtnLeft{
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+.form_mainKijiItemBtnRight{
+	float: right;
+	margin: 0px 0px 0px 0px;
+}
+
+.div_itiranFloat{
+	clear: both;
+	padding: 10px 0px 0px 0px;
+}
+
+.table_variation{
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.td_variation{
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+
+.td_variationBgColor{
+	border: 1px solid #CCCCCC;
+	background-color: #ffffcc;
+	text-align: center;
+}
+
+.table_syouhin_spec{
+	border-collapse: collapse;
+}
+
+.table_tyuumonsuuLeft{
+	text-align: left;
+}
+
+.td_syouhinInfo_large_name{
+	border: 1px solid #D1D1D1;
+	white-space: nowrap;
+	padding: 3px;
+}
+
+.td_syouhinInfo_large{
+	padding: 3px;
+	border: 1px solid #D1D1D1;
+}
+
+.td_syouhinInfo_detail_name{
+	border: 1px solid #D1D1D1;
+	white-space: nowrap;
+	padding: 3px;
+}
+
+.td_syouhinInfo_detail{
+	padding: 3px;
+	border: 1px solid #D1D1D1;
+}
+
+.td_tyuumonsuuRight{
+	text-align: right;
+}
+
+.div_reviewLeft{
+	text-align: left;
+}
+
+.div_reviewRight{
+	text-align: right;
+}
+
+.div_reviewPadding{
+	padding: 0px 0px 0px 10px;
+}
+
+.div_syouhinReview{
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.div_revewNone{
+	display: none;
+}
+
+.div_revewLink{
+	display: block;
+}
+
+.td_osusumeKanrenTop{
+	vertical-align: top;
+	text-align: center;
+}
+
+.form_largeSyouhin{
+	margin: 0px 0px 0px 0px;
+}
+
+.td_largeSyouhinImageSize{
+	width: 310px;
+	vertical-align: top;
+}
+
+.td_middleSyouhinImageSize{
+	width: 140px;
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.td_middleSyouhinInfo{ 
+	padding: 0px 0px 0px 10px;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+.td_middleSyouhinNameInfo{
+	padding: 0px 0px 0px 20px;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+.td_middleSyouhinName{
+	padding: 0px 0px 10px 0px;
+}
+
+.td_middleSyouhin_top{
+	padding: 3px;
+	vertical-align: top;
+}
+
+.td_middleSyouhin{
+	padding: 0px 0px 0px 15px;
+}
+
+.td_middleSyouhinImageOnly{
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+	width: 33%;
+}
+
+.td_smallSyouhinImageOnly{
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+	width: 25%;
+}
+
+.th_smallSyouhinNo {
+	border-left: solid 0px #000000;
+	border-bottom: solid 1px #000000;
+	border-right: solid 0px #000000;
+	width: 0%; 
+}
+
+.table_width100{
+	width: 100%;
+}
+
+.td_center{
+	text-align: center;
+}
+
+.th_smallSyouhin {
+	border-left: solid 0px #000000;
+	border-bottom: solid 1px #000000;
+	border-right: solid 0px #000000;
+	text-align: center; 
+}
+
+.th_smallSyouhinImg {
+	border-left: solid 0px #000000;
+	border-bottom: solid 1px #000000;
+	border-right: solid 0px #000000;
+	text-align: center; 
+	width: 70px;
+}
+
+.tr_top{
+	vertical-align: top;
+}
+
+.hr_color{
+	color: #000000;
+	height: 1px;
+}
+
+.div_cartKijiareaCenter{
+	text-align: center;
+}
+
+.table_tesuuryou {
+	width: 100%;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+.td_tesuuryouMidasi{
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+.td_tesuuryouJouken{
+	border: 0px solid #000000;
+	width: 30%;
+	padding: 5px;
+}
+
+.td_tesuuryou{
+	border: 0px solid #000000;
+}
+
+.div_cartKijiareaWidth{
+	margin: 10px auto 10px auto;
+	width: 600px;
+}
+
+.div_cartSyouhinLeft{
+	text-align: left;
+	margin: 10px 0px 0px 5px;
+}
+
+.table_cartSyouhin{
+	margin: 10px auto 0px auto;
+	border: 1px solid #000000;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 5px;
+	margin: 0px 0px 5px 0px;
+}
+
+.td_cartSyouhinCenter{
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 3px;
+	white-space: nowrap;
+}
+
+.td_cartSyouhinRight{
+	border: 1px solid #000000;
+	text-align: right;
+}
+
+.td_cartSyouhinLeft{
+	border: 1px solid #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.div_cartGoukeiCenter{
+	text-align: center;
+}
+
+.table_cartGoukei{
+	margin: 10px auto 0px auto;
+	border: 1px solid #000000;
+	text-align: center;
+	border-collapse: collapse;
+	width: 400px;
+}
+
+.div_cartSyouhinRight{
+	text-align: right;
+}
+
+.table_cartRenraku{
+	border: 1px solid #000000;
+	border-collapse: collapse; 
+	width: 100%;
+}
+
+.td_cartRenraku{
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+.td_width50per{
+	width: 50%;
+}
+
+.font_colorHissu{
+	color: #ff0033;
+}
+
+.table_cartInfo{
+	border: 1px solid #cccccc;
+	border-collapse: collapse; 
+	width: 100%;
+}
+
+.td_cartBg{
+	border: 1px solid #cccccc;
+	background-color: #C0C0C0;
+	width: 30%;
+}
+
+.td_cartInfoLeft{
+	border: 1px solid #cccccc;
+	text-align: left;
+}
+
+.td_cartInfoRight{
+	text-align: right;
+}
+
+.td_tyuumonFin{
+	text-align: left;
+	padding: 0px 0px 20px 0px;
+}
+
+.div_detailLeft{
+	text-align: left;
+	clear: both;
+}
+
+.td_syousaiTop{
+	vertical-align: top;
+}
+
+.div_syousaiImg{
+	width: 300px;
+	cursor: pointer;
+}
+
+.td_syousaiCenter{
+	text-align: center;
+}
+
+.td_syousaiCenterTop{
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.div_backButton{
+	text-align: right;
+}
+
+.textarea_syouhinQueryWidth{
+	font-family: ＭＳ Ｐゴシック;
+	width: 100%;
+}
+
+.div_syouhinQueryRight{
+	text-align: right;
+}
+
+.div_shouhinQueryTagCenter{
+	text-align: center;
+}
+
+.div_syouhinqueryFin{
+	padding: 20px 20px 20px 20px;
+}
+
+
+.div_querySyouhinPadding{
+	padding: 0px 50px 0px 50px;
+}
+
+.div_queryPadding{
+	padding: 0px 50px 0px 50px;
+}
+
+.form_query{
+	text-align: center;
+}
+
+.form_queryFloat{
+	float: right;
+}
+
+.div_queryCenter{
+	text-align: center;
+}
+
+.td_queryItemLeft{
+	text-align: left;
+	border: 1px solid #000000;
+	width: 20%;
+	padding: 3px;
+	white-space: nowrap;
+}
+
+.td_queryLeft{
+	text-align: left;
+	border: 1px solid #000000;
+}
+
+.td_queryRight{
+	text-align: right;
+	border: 1px solid #000000;
+}
+
+.table_query{
+	text-align: left;
+	border: 1px solid #000000;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.text_queryWidth{
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.table_queryKakunin{
+	width: 80%;
+	border: 1px solid #000000;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.div_queryFin{
+	padding: 20px 20px 20px 20px;
+}
+
+.div_errorCenter{
+	text-align: center;
+}
+
+.div_errorWordWidth{
+	margin: 30px 0px 30px 0px;
+}
+
+.div_errorWordLeft{
+	text-align: left;
+}
+
+.table_errorWidth{
+	width: 600px;
+}
+
+.table_syouhinQueryError{
+	text-align: left;
+	width: 600px;
+}
+
+
+.td_syouhinInfo{ 
+	padding: 0px 0px 0px 10px;
+}
+
+.td_itiranSyouhinInfo {
+	border-left: solid 0px #000000;
+	border-bottom: solid 1px #000000;
+	border-right: solid 0px #000000;
+	padding: 10px 0px 10px 10px;
+}
+
+.th_itiranSyouhin {
+	border-left: solid 0px #000000;
+	border-bottom: solid 1px #000000;
+	border-right: solid 0px #000000;
+	text-align: center; 
+}
+
+.table_haisouType {
+	border: 1px solid #000000;
+	border-collapse: collapse; 
+	width: 100%;
+}
+
+.td_haisouTypeLeft{
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+
+.td_haisouTypeLeftColor{
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+
+.td_haisouTypeCharges{
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+
+.body_tokuSyouHouFontColor{
+	color: #000000;
+
+}
+
+.div_tokuSyouHouCenter{
+	text-align: center;
+}
+
+.div_tokuSyouHouWidth{
+	width: 600px;
+}
+
+.div_tokuSyouHouLeft{
+	text-align: left;
+}
+
+.table_tokuSyouHou{
+	border: 1px solid #808080;
+	border-collapse: collapse; 
+	width: 100%;
+}
+
+.td_tokuSyouHouItemName {
+	border: 1px solid #808080;
+	background-color: #dcdcdc;
+	text-align: center;
+	width: 30%;
+}
+
+.td_tokuSyouHouItem {
+	border: 1px solid #808080;
+	background-color: #ffffff;
+	width: 70%;
+}
+
+.div_right{
+	text-align: right;
+}
+
+.table_itemBorderList{
+	border: 0px solid #000000; 
+	width: 100%;
+}
+
+.div_tax{
+	color: ;
+	text-align: right;
+	width: 100%;
+}
+
+.table_itemList{
+	width: 100%;
+}
+
+.textbox_right{
+	font-family: ＭＳ Ｐゴシック;
+	text-align: right;
+}
+
+.text_font{
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.textarea_font{
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.jdSlideshow{
+	background-repeat: no-repeat;
+}
+
+.slideshow{
+	width: 140px;
+	height: 140px;
+	color: #999999;
+}
+
+.div_Slideshow_left{
+	text-align: left;
+}
+
+.slideElement{
+	background-repeat: no-repeat;
+}
+
+.loadingElement{
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+
+.style1{
+	font-size: small;
+}
+
+.style2{
+	font-size: 14px;
+}
+
+.style_fixErrorCenterIE8{
+	margin: 0px auto 0px auto;
+}
+
+.style_fixCenterIE8{
+
+}
+
+.style_fixAskItemCenterIE8{
+
+}
+
+.style_fixAskCenterIE8{
+
+}
+
+.td_freePage_0 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_2 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_4 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_5 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_6 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_7 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_8 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_9 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_10 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_11 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_14 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_15 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_16 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_17 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_18 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_19 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_21 {
+	background-color: ;
+	background-image: ;
+}
+.td_freePage_23 {
+	background-color: ;
+	background-image: ;
+}
+.td_queryBackGround_22 {
+	background-color: ;
+	background-image: ;
+	padding: 10px 10px 10px 10px;
+}
+
+/*--tag_custom_style--*/
+/*--ここからヘッダー部分テキストの位置調整用--*/
+.div_headtext {
+	padding:5px;  /* 上下左右余白*/
+}
+/*--ここまでヘッダー部分テキストの位置調整用--*/
+/*--ここからモジュールに対する余白設定--*/
+.div_moduleCenter{
+	padding: 5px; /* 上下左右余白*/
+	line-height: 140%;
+}
+.img_padding{
+	padding: 5px 0px 5px 0px;
+ 	vertical-align: middle;
+}
+/*--ここまでモジュールに対する余白設定--*/
+/*--ここから横メニュー設定用--*/
+.td_yokoMenu{
+	text-align: left;　/* 横方向の揃え*/
+	margin: 0px;
+	padding: 0px;
+}
+.table_yokoMenu {
+	text-align:left;/* 横方向の揃え*/
+	width: 75%;/* 全体幅に対しする、横メニューの幅*/
+}
+.td_yokoMenuItem{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color: #0000CC;
+	border-collapse: collapse;
+	height: 15px;	    /* 縦幅 */
+	width: 100px;                /* 横幅 */
+	margin: 0px;
+	font-size: 12px;            /* フォントサイズ */
+	line-height: 12px;          /* 行の高さ */
+	text-align: center;
+	width: 100px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+/*--ここまで横メニュー設定用--*/
+/*--ここから編集エリア背景画像の位置調整用--*/
+.td_main_ssl{
+	background-position: 0px 0px;
+}
+/*--ここまで編集エリア背景画像の位置調整用--*/
+.td_main_ssl{
+	background-position: 0px 0px;
+}
+/*--ここから縦メニュー幅調整用--*/
+.img_tateMenu1{
+}
+.img_tateMenu2{
+}
+
+/*--ここまで縦メニュー幅調整用--*/
+
+/*--お問い合わせここから--*/
+.td_queryItemLeft{
+	border: 1px;
+	border-style: solid;
+	border-color: #3333ff;
+	background-color:#ffffff;/* お問い合わせの左項目の背景色*/
+}
+.td_queryLeft{
+	border: 1px solid #3333ff;
+}
+.td_queryRight{
+	border: 1px solid #3333ff;
+}
+.text_queryWidth{
+	border: 1px solid #3333ff;
+}
+.div_querySyouhinPadding{
+	padding: 0px 50px 0px 50px;
+}
+.div_queryPadding{
+	padding: 0px 50px 0px 50px;
+}
+.form_query{
+	text-align: center;
+}
+.form_queryFloat{
+	float: right;
+}
+
+/*--ここまでお問い合わせ--*/
+/*ここから特定商取引に関する表記*/
+.div_tokuSyouHouCenter{
+}
+.div_tokuSyouHouWidth{
+}
+.div_tokuSyouHouLeft{
+	margin:10px;
+}
+.table_tokuSyouHou{
+	border: 1px solid #808080;
+	border-collapse: collapse; 
+	width: 100%;
+}
+.td_tokuSyouHouItemName {
+	padding:10px;
+}
+.td_tokuSyouHouItem {
+	padding:10px;
+}
+/*ここまで特定商取引に関する表記*/
+/*ここから手数料に関する表記*/
+.table_tesuuryou {
+	margin:10px;
+}
+.td_tesuuryouMidasi{
+	/*padding:10px;*/
+}
+.td_tesuuryouJouken{
+	padding:10px;
+}
+.td_tesuuryou{
+	border: 0px solid #000000;
+}
+/*ここまで手数料に関する表記*/
+/*カート商品一覧*/
+.th_smallSyouhin {
+	background-color: #CCCCCC;
+	border-left: 1px solid #000000;
+	padding: 5px;
+	border-top: 1px solid #000000;
+}
+/*カート商品詳細スペック*/
+.td_syouhinInfo{ 
+	border-left: 1px solid #D1D1D1;
+	padding: 5px;
+}
+/*ここから配送に関する表記*/
+.table_haisouType {
+	padding:10px;
+}
+.td_haisouTypeLeft{
+	padding: 10px 10px 10px 10px;
+}
+.td_haisouTypeLeftColor{
+	padding: 5px 5px 5px 5px;
+}
+.td_haisouTypeRight{
+	border: 1px solid #000000;
+	text-align: right;
+	padding: 0px 5px 0px 5px;
+}
+/*ここまで配送に関する表記*/
+/*--フッター部分テキスト--*/
+.td_footer{
+	padding:3px;
+}
+.form_mainKijiCartInfo{
+	float: none;
+}
+
+/*--html--*/
+body{font-size:14px; color:#333333; }
+img{border:0; padding:0; margin:0 auto;}
+div,ul,li,span,p,input,form,select,h1,h2,h3,h4,h5,p,td,td,table,img{margin:0;padding:0;}
+ul,li{list-style-type:none;}
+a:hover img {
+  filter:alpha(opacity=90); /*IE*/
+  -moz-opacity: 0.90; /*FF*/
+  opacity: 0.90;
+}
+h1 { font-weight:normal; font-size:12px; color:#fff;}
+/*--ais1--*/
+.div_layoutAlign {width:1000px;}
+.td_tateMenu1 {}
+.div_layoutAlign table { margin:0 auto;}
+.td_tateMenu1 a{ font-size:0px;}
+.td_mainKiji {}
+.div_mainKiji {}
+.table_query td{ padding:5px;}
+.td_syouhinBackGround { padding-top:0px;}
+.form_mainKijiCartInfo { margin-top:0px;}
+.td_yokoMenu a{ height:46px; display:block; font-size:0px;}
+/*--tag_custom_style--*/
+/*--コンテンツ　table内左寄せ--*/
+.td_mainKiji td {
+text-align: left;
+}

@@ -1,0 +1,10 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+<meta http-equiv="Refresh" CONTENT="0; URL=./order_form_finish.cgi?pay_num=<TMPL_VAR NAME="pay_num">&timestamp=<TMPL_VAR NAME="timestamp">&pref=<TMPL_VAR NAME="todouhuken">&s_pref=<TMPL_VAR NAME="sp_todouhuken">">
+</head>
+<body>
+完了画面に自動でジャンプします。
+</body>
+</html>

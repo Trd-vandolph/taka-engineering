@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title>タカエンジニアリング&nbsp;|&nbsp;静岡県袋井市｜省電力化機器・エコ関連商品等の製造販売</title>
+<!--tag_header_succession=""-->
+ <!--tag_meta_succession=""-->
+ <meta name="Keywords" content="静岡県袋井市,省電力化機器,エコ関連商品,ドリームプラス,Dream&nbsp;Plus,電気自動車,電気部品,電動スクーター,イーミストセララ,リチウムフェライト電池"> 
+ <meta name="Description" content="タカエンジニアリングは、静岡県袋井市を拠点に営業展開。エコ関連機器、省電力化機器、アイデア商品、アイデアの具現化、Dream&nbsp;Plus&nbsp;などを取り扱っております。">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+タカエンジニアリング　静岡県袋井市　省電力化機器　エコ関連商品
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td class="td_header">
+<!--head_START-->
+<!--tag_edit_head-->
+<p align="left">&nbsp;<b><font size="2">タカエンジニアリング　静岡県袋井市　省電力化機器　エコ関連商品</font></b></p>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46677083-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <p><A href="http://www.taka-engineering.com/index.html"><img src="../img/menu001.gif" width="215" height="35"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_14_1.html"><img src="../img/menu002.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_17_1.html"><img src="../img/menu003.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_2_1.html"><img src="../img/menu004.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_21_1.html"><img src="../img/menu005.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_23_1.html"><img src="../img/menu006.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_15_1.html"><img src="../img/menu007.gif"></A></td>
+        <td>
+            <p><A href="http://www.taka-engineering.com/freepage_16_1.html"><img src="../img/menu008.gif"></A></td>
+    </tr>
+</table>
+
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_mainKiji td_main_ssl td_syouhinQueryBackGround_<TMPL_VAR NAME="pid">">
+				<div class="div_mainKiji">
+<TMPL_IF NAME="error_flg">
+ 				<div class="div_errorCenter">
+ 					<div class="div_errorWordWidth">
+ 						<div class="div_errorWordLeft">
+ 					<TMPL_IF NAME="mail_error_flg">
+ 							申し訳ありませんが、ただいまメールをご利用いただけません。<br>
+ 							下記にお問い合わせください。<br>
+ 							<TMPL_VAR NAME="tokusyouhou_renrakusaki"><br><br>
+ 					</TMPL_IF>
+ 					<TMPL_IF NAME="mailaddress_error_flg">
+ 							申し訳ありませんが、ただいまメールをご利用いただけません。<br>
+ 							下記にお問い合わせください。<br>
+ 							<TMPL_VAR NAME="tokusyouhou_renrakusaki"><br><br>
+ 					</TMPL_IF>
+ 								<input type="button" value="ＨＯＭＥへ戻る" onClick="location.href='<TMPL_VAR NAME="top_url">'">
+ 						</div>
+ 					</div><br><br>
+ 				</div>
+ <TMPL_ELSE>
+ 			商品問い合わせ完了
+ 				<div class="div_syouhinqueryFin">
+ 					<TMPL_VAR NAME="askItem_fin_comment">
+ 						<br><input type="button" value="ＨＯＭＥへ戻る" onClick="location.href='<TMPL_VAR NAME="top_url">'">
+ 				</div><br><br>
+ </TMPL_IF>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;タカエンジニアリング　All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

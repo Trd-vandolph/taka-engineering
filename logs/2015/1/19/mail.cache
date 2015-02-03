@@ -1,0 +1,14 @@
+CACHE type 4 produced by analog 4.1/Unix. Do not modify or delete!
+T	0	0	5	5	0	0	19302
+D	23696102	23696413
+16455	180	1	1	13214
+16455	242	4	4	6088
+1	5	5	0	0	23696413	0	0	19302	/info@taka-engineering.com/
+3	4	4	0	0	23696413	0	0	6088	http://nifty.com/
+3	1	1	0	0	23696102	0	0	13214	http://adprint.jp/
+4	5	5	0	0	23696413	0	0	19302	http://www.taka-engineering.com/
+5	1	1	0	0	23696102	0	0	13214	info@adprint.jp
+5	4	4	0	0	23696413	0	0	6088	za0pp7@nifty.com
+z	4	4	4	23696413	6088
+z	5	1	1	23696102	13214
+c	200	5	23696413

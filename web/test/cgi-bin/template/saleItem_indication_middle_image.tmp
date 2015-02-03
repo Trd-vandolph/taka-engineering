@@ -1,0 +1,508 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--tag_base_layout_no="1F"-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<!--tag_meta_ie_compatible-->
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+	<!--tag_meta_title-->
+	<title><TMPL_VAR NAME="meta_title"></title>
+<meta name="Keywords" content="<TMPL_VAR NAME="meta_keywords">">
+ <meta name="Description" content="<TMPL_VAR NAME="meta_description">">
+	<link rel="stylesheet" type="text/css" href="./style.css"> 
+	<script language="JavaScript" type="text/javascript" src="./js/config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/XMLHTTP.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_config.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_mootools.release.83.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_showcase.slideshow.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/slideShow_timed.slideshow.js" ></script>
+
+<script type="text/javascript"><!--
+	var cookieEnabledFlg = 1;
+	if (!navigator.cookieEnabled) {
+		cookieEnabledFlg = 0;
+		alert("クッキーの書き込みができません。ブラウザの設定を変更してくだい。");
+	}
+
+	var cgiFlg = 1;
+-->
+</script>
+<!--tag_header_addition_begin-->
+<TMPL_VAR NAME="header_addition">
+<!--tag_header_addition_end-->
+</head>
+<body>
+<div class="div_layoutAlign">
+	<table class="table_layout">
+		<tr>
+			<td colspan="2" class="td_header">
+<!--head_START-->
+<!--tag_head_link_url-->
+<div class="div_headtext"><!--<a href="">-->ここにヘッダーテキストが入ります。</div>
+<!--head_END-->
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="td_mainImage">
+<!--mainimage_START-->
+<!--tag_edit_mainimage-->
+<p>&nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="730">
+    <tr>
+        <td width="600">
+            <p><img src="../img/top100.gif" align="bottom" width="600" height="150" border="0" alt="タカエンジニアリング　トップ"></p>
+        </td>
+        <td width="360">
+            <p><a href="freepage_15_1.html"><img src="../img/top101.gif" align="bottom" width="360" height="150" border="0" alt="タカエンジリアニング　トップ"></a></p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<!--mainimage_END--></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="td_yokoMenu">
+<!--sidemenu_START-->
+<!--tag_edit_sidemenu-->
+<table border="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+<A href="index.html"><img src="../img/menu001_01.gif" align="bottom" width="320" height="35" border="0" onmouseover='this.src="../img/menu001_02.gif"' onmouseout='this.src="../img/menu001_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_14_1.html"><img src="../img/menu002_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu002_02.gif"' onmouseout='this.src="../img/menu002_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu003_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu003_02.gif"' onmouseout='this.src="../img/menu003_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu004_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu004_02.gif"' onmouseout='this.src="../img/menu004_01.gif'></A>
+        </td>
+        <td>
+<A href="#"><img src="../img/menu005_01.gif" align="bottom" width="92" height="35" border="0" onmouseover='this.src="../img/menu005_02.gif"' onmouseout='this.src="../img/menu005_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_21_1.html"><img src="../img/menu006_01.gif" align="bottom" width="90" height="35" border="0" onmouseover='this.src="../img/menu006_02.gif"' onmouseout='this.src="../img/menu006_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_15_1.html"><img src="../img/menu007_01.gif" align="bottom" width="95" height="35" border="0" onmouseover='this.src="../img/menu007_02.gif"' onmouseout='this.src="../img/menu007_01.gif'></A>
+        </td>
+        <td>
+<A href="freepage_16_1.html"><img src="../img/menu008_01.gif" align="bottom" width="83" height="35" border="0" onmouseover='this.src="../img/menu008_02.gif"' onmouseout='this.src="../img/menu008_01.gif'></A>
+        </td>
+    </tr>
+</table>
+<!--sidemenu_END-->
+			</td>
+		</tr>
+		<tr>
+			<td class="td_tateMenu1">
+<div align="left">
+<!--length1_START-->
+<div class="div_moduleMargin1">
+<!--tag_module_start="101"-->
+ <!--tag_add_start-->
+ <table align="center" cellpadding="0" cellspacing="0" width="200">
+     <tr>
+         <td width="200" colspan="4" height="35" background="../img/sub_title7-1.gif">
+             <p><b>会社案内</b></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_14_1.html"><font color="green" size="2">会社概要</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_15_1.html"><font color="green" size="2">問い合わせ</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_16_1.html"><font color="green" size="2">リンク</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="200" colspan="4" height="35" background="../img/sub_title7-1.gif">
+             <p><b>エコ関連商品</b></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_17_1.html"><font color="green" size="2">電気自動車</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_18_1.html"><font color="green" size="2">電動スクーター</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_19_1.html"><font color="green" size="2">電気部品</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="200" colspan="4" height="35" background="../img/sub_title7-1.gif">
+             <p><b>健康関連グッズ</b></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center"><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" colspan="2" height="30">
+             <p><a href="freepage_2_1.html"><font color="green" size="2">ドリームプラス</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_3_1.html"><font color="green" size="2">体験希望</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_4_1.html"><font color="green" size="2">導入ご検討の方へ</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_5_1.html"><font color="green" size="2">ドーピングについて</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_6_1.html"><font color="green" size="2">酸素の話</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_7_1.html"><font color="green" size="2">ご依頼の流れ</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_8_1.html"><font color="green" size="2">よくある質問</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="22">
+             <p align="left" style>&nbsp;</p>
+         </td>
+         <td width="18">
+             <p align="left" style><font size="2"><b>&nbsp;</b></font></p>
+         </td>
+         <td width="18" height="35">
+             <p align="right" style><font color="green" size="1"><b>＞</b></font></p>
+         </td>
+         <td width="142" height="35">
+             <p><a href="freepage_9_1.html"><font color="green" size="2">お客様の声</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center" style><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_10_1.html"><font color="green" size="2">イー・ミスト　せせら</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center" style><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_11_1.html"><font color="green" size="2">エッセンシャルオイル</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="200" colspan="4" height="35" background="../img/sub_title7-1.gif">
+             <p><b>アイデア商品</b></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center" style><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_21_1.html"><font color="green" size="2">アイデアを具体化</font></a></p>
+         </td>
+     </tr>
+     <tr>
+         <td width="40" colspan="2">
+             <p align="center" style><img src="../img/menu108.gif" align="bottom" width="15" height="14" border="0"></p>
+         </td>
+         <td width="160" height="35" colspan="2">
+             <p><a href="freepage_23_1.html"><font size="2" color="green">ＬＥＤホームプランター</font></a></p>
+         </td>
+     </tr>
+ </table>
+ <p align="left">&nbsp;</p>
+ 
+ <!--tag_add_end-->
+ 
+ <!--tag_module_end-->
+
+</div>
+<div class="div_moduleMargin1">
+<!--tag_module_start="102"-->
+ <!--tag_add_start-->
+ <p align="center"><a href="http://www.taka-engineering.com/" target="_blank"><img src="../img/menu010.gif" align="bottom" width="196" height="85" border="0" alt="商品販売サイト"></a>&nbsp;</p>
+ 
+ <!--tag_add_end-->
+ 
+ <!--tag_module_end-->
+
+</div>
+
+<!--length1_END-->
+</div>
+<img src="../img/spacer.gif" class="img_tateMenu1" alt="">
+			</td>
+			<td class="td_mainKiji td_syouhinBackGround_<TMPL_VAR NAME="pid">">
+				<div class="div_mainKiji">
+				<TMPL_IF NAME="hedder_flg">
+ 					<div >
+ 						<TMPL_IF NAME="hedder_image_flg">
+ 						<img src="<TMPL_VAR NAME="hedder_image_url">" alt=""><br>
+ 						</TMPL_IF>
+ 						<TMPL_VAR NAME="hedder_comment">
+ 						<br><br>
+ 					</div>
+ 				</TMPL_IF>
+ 					<div>
+ 						<TMPL_IF NAME="search_form_flg">
+ 						<form name="form_mainKijiKensaku" class="form_mainKijiKensaku" method="GET">
+ 							<input type="text" name="ukeyword" value="<TMPL_VAR NAME="ukeyworddec">" class="text_font">
+ 							<input type="submit" value="検索">
+ 							<input type="hidden" name="pid" value="<TMPL_VAR NAME="pid">">
+ 							<input type="hidden" name="stype" value="<TMPL_VAR NAME="stype">">
+ 							<input type="hidden" name="vtype" value="<TMPL_VAR NAME="vtype">">
+ 						</form>
+ 						</TMPL_IF>
+ 						<form name="form_mainKijiCartInfo" class="form_mainKijiCartInfo" action="order_cart_info.cgi" method="GET">
+ 							<TMPL_IF NAME="CONFIG_business_legis_flg">
+ 								<input type="button" value="特定商取引法に基づく表示" onClick="javascript:window.open('../tokuteishoutorihikihou.html','','scrollbars=yes,Width=720,Height=720');">
+ 							</TMPL_IF>
+ 							<input type="submit" value="注文情報の確認">
+ 							<input type="hidden" name="pid" value="<TMPL_VAR NAME="pid">">
+ 							<input type="hidden" name="stype" value="<TMPL_VAR NAME="stype">">
+ 							<input type="hidden" name="vtype" value="<TMPL_VAR NAME="vtype">">
+ 							<input type="hidden" name="ukeyword" value="<TMPL_VAR NAME="ukeyword">">
+ 							<input type="hidden" name="vnum" value="<TMPL_VAR NAME="vnum">">
+ 							<input type="hidden" name="bpage" value="<TMPL_VAR NAME="bpage">">
+ 						</form>
+ 					</div>
+  	<TMPL_IF NAME="narrow_search_flg">
+ 			 	<TMPL_IF NAME="no_item_flg">
+  					<div class="div_itiranFloat">
+  						掲載する商品がありません。<br>
+  					</div>
+ 			 	<TMPL_ELSE>
+  					<div class="div_itiranFloat">
+  						「<TMPL_VAR NAME="ukeyworddec">」での絞り込みに一致する商品はありませんでした。<br>
+  					</div>
+ 			 	</TMPL_IF>
+  	<TMPL_ELSE>
+ 					<br>
+ 					<br>
+ 					表示順序　[ 
+ 						<TMPL_IF NAME="stype1_flg">
+ 							おすすめ順
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=1&vtype=<TMPL_VAR NAME="vtype">&vnum=1">おすすめ順</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="stype2_flg">
+ 							安い順
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=2&vtype=<TMPL_VAR NAME="vtype">&vnum=1">安い順</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="stype3_flg">
+ 							高い順
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=3&vtype=<TMPL_VAR NAME="vtype">&vnum=1">高い順</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="stype4_flg">
+ 							かな順
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=4&vtype=<TMPL_VAR NAME="vtype">&vnum=1">かな順</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="stype5_flg">
+ 							新着順
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=5&vtype=<TMPL_VAR NAME="vtype">&vnum=1">新着順</a>
+ 						</TMPL_IF>
+ 					]<br>
+ 					表示形式　[ 
+ 						<TMPL_IF NAME="vtype_t">
+ 							タイトルのみ
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=<TMPL_VAR NAME="stype">&vtype=T&vnum=<TMPL_VAR NAME="vnum">">タイトルのみ</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="vtype_ti">
+ 							タイトル＋画像
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=<TMPL_VAR NAME="stype">&vtype=TI&vnum=<TMPL_VAR NAME="vnum">">タイトル＋画像</a>
+ 						</TMPL_IF>
+ 						 | 
+ 						<TMPL_IF NAME="vtype_i">
+ 							画像のみ
+ 						<TMPL_ELSE>
+ 							<a href="?pid=<TMPL_VAR NAME="pid">&ukeyword=<TMPL_VAR NAME="ukeyword">&stype=<TMPL_VAR NAME="stype">&vtype=I&vnum=<TMPL_VAR NAME="vnum">">画像のみ</a>
+ 						</TMPL_IF>
+ 						 ]<br>
+ 					<TMPL_VAR NAME="pageing_start_number">～<TMPL_VAR NAME="pageing_end_number">件表示 (全<TMPL_VAR NAME="pageing_all_number">件)　<TMPL_VAR NAME="pageing_back">　<TMPL_VAR NAME="pageing_area">　<TMPL_VAR NAME="pageing_next">
+ 					<HR class="hr_color">
+ 				</div>
+ 				<div>
+ 					<table class="table_itemBorderList" cellspacing=5>
+ 	<TMPL_LOOP NAME="SALEITEM_LOOP">
+ 					<TMPL_IF NAME="tr_start_flg">
+ 						<tr class="tr_top">
+ 					</TMPL_IF>
+ 							<td class="td_middleSyouhinImageOnly_itemBorder_<TMPL_VAR NAME="pid">">
+ 								<div>
+ 									<a href="<TMPL_VAR NAME="saleItem_detailInfo_url">" class="a_img_border" onClick="return doChk();">
+ 										<img src="<TMPL_VAR NAME="thumbnail_image_url">" class="img_middle" alt="">
+ 									</a>
+ 								</div>
+ 								<div>
+ 								<a href="<TMPL_VAR NAME="saleItem_detailInfo_url">" class="a_syouhin_<TMPL_VAR NAME="pid">" onClick="return doChk();">
+ 									<TMPL_VAR NAME="hinmei">
+ 								</a> 
+ 								<TMPL_IF NAME="order_new_icon_flg">
+ 									<img src="<TMPL_VAR NAME="order_new_icon">" alt="">
+ 								</TMPL_IF>
+ 								<TMPL_IF NAME="recom_icon_flg">
+ 									<img src="<TMPL_VAR NAME="recom_icon">" alt="">
+ 								</TMPL_IF>
+ 								</div>
+ 								<div>
+ 									価格 
+ 								<TMPL_IF NAME="sp_price_icon_flg">
+ 									<nobr><TMPL_VAR NAME="sp_price">円</nobr>
+ 								<TMPL_IF NAME="pretax_sp_flg">
+ 									<nobr>(税抜 <TMPL_VAR NAME="pretax_sp_price">円)</nobr>
+ 								</TMPL_IF>
+ 									<img src="<TMPL_VAR NAME="sp_price_icon">" alt="">
+ 								<TMPL_ELSE>
+ 									<nobr><TMPL_VAR NAME="retail_price">円</nobr>
+ 								<TMPL_IF NAME="pretax_flg">
+ 									<nobr>(税抜 <TMPL_VAR NAME="pretax_price">円)</nobr>
+ 								</TMPL_IF>
+ 								</TMPL_IF>
+ 								</div>
+ 							</td>
+ 					<TMPL_IF NAME="tr_end_flg">
+ 						</tr>
+ 					</TMPL_IF>
+ 	</TMPL_LOOP>
+ 					</table>
+ 				</div>
+ 				<div class="div_mainKiji">
+ 					<HR class="hr_color">
+ 					<TMPL_VAR NAME="pageing_start_number">～<TMPL_VAR NAME="pageing_end_number">件表示 (全<TMPL_VAR NAME="pageing_all_number">件)　<TMPL_VAR NAME="pageing_back">　<TMPL_VAR NAME="pageing_area">　<TMPL_VAR NAME="pageing_next">
+ 					<div class="div_tax">
+ 						<TMPL_VAR NAME="tax_string">
+ 					</div>
+ 				<TMPL_IF NAME="footer_flg">
+ 					<div >
+ 						<TMPL_VAR NAME="footer_comment">
+ 					</div>
+ 				</TMPL_IF>
+ 	</TMPL_IF>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="td_footer">
+<!--foot_START-->
+
+<!--tag_foot_text-->
+Copyright&nbsp;(c)&nbsp;All&nbsp;Rights&nbsp;Reserved.
+<!--foot_END-->
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
